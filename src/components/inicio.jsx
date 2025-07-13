@@ -1,16 +1,21 @@
 import React from 'react';
+import Hero from './hero';
+import Carrusel from './carrusel';
 import '../styles/inicio.css';
 
 function Inicio() {
   return (
     <div className="inicio-container">
-      <header className="inicio-header">
-        <h1 className="inicio-title">Bienvenido a Mi Aplicación</h1>
-        <p className="inicio-subtitle">
-          Explora las funcionalidades, gestiona tus recursos y mejora tu productividad.
+      <Hero />
+      <section className="inicio-about">
+        <h2>🔒 Nuestra Misión</h2>
+        <p>
+          Protegemos tus activos digitales con pruebas de seguridad, auditorías y consultoría 
+          de ciberseguridad de primer nivel. Nuestro equipo combina experiencia y tecnología 
+          para blindar tu empresa frente a amenazas reales.
         </p>
-        <button className="inicio-button">Comenzar</button>
-      </header>
+      </section>
+      <Carrusel />
     </div>
   );
 }

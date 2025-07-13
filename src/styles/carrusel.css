@@ -1,0 +1,45 @@
+.carrusel {
+  padding: 60px 20px;
+  background: #0a192f;
+  text-align: center;
+}
+
+.carrusel h2 {
+  font-size: 2rem;
+  color: #0070f3;
+  margin-bottom: 40px;
+}
+
+.carrusel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.carrusel-item img {
+  max-width: 120px;
+  max-height: 80px;
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.carrusel-item img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Swiper overrides para que flechas y bullets combinen */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #0070f3;
+}
+
+.swiper-pagination-bullet {
+  background: #0070f3;
+}
+
+.swiper-pagination-bullet-active {
+  background: #00b7ff;
+}

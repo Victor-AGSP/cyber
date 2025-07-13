@@ -4,6 +4,7 @@ import Inicio from './components/inicio';
 import Menu from './components/menu';
 import Servicios from './components/services';
 import Contacto from './components/contacts';
+import CursoPentesting from './components/curses/cursopentesting';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Inicio />} />
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/pentesting" element={<CursoPentesting />} />
       </Routes>
     </Router>
   );
