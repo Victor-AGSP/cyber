@@ -21,6 +21,12 @@ const services = [
     icon: '📱',
   },
   {
+    title: 'Recuperación de Información',
+    description:
+      'Recuperamos datos eliminados o inaccesibles en discos duros, pendrives y otros dispositivos de almacenamiento, aplicando métodos seguros y confidenciales.',
+    icon: '💾',
+  },
+  {
     title: 'Consultoría en Ciberseguridad',
     description:
       'Asesoramos a empresas para identificar vulnerabilidades y aplicar soluciones efectivas de seguridad.',
