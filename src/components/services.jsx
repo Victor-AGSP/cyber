@@ -1,35 +1,52 @@
 import React from 'react';
 import '../styles/services.css';
 
-function Servicios() {
-  const services = [
-    {
-      title: 'Desarrollo Web',
-      description: 'Creamos sitios web modernos, responsivos y optimizados para todos los dispositivos.',
-    },
-    {
-      title: 'Aplicaciones Móviles',
-      description: 'Desarrollamos apps para Android y iOS con tecnología nativa o híbrida.',
-    },
-    {
-      title: 'Consultoría Tecnológica',
-      description: 'Asesoramos a empresas en transformación digital y mejora de procesos tecnológicos.',
-    },
-  ];
+const services = [
+  {
+    title: 'Formateo y Optimización',
+    description:
+      'Formateamos y optimizamos sistemas operativos para garantizar máximo rendimiento, seguridad y estabilidad.',
+    icon: '🧹',
+  },
+  {
+    title: 'Desarrollo de Páginas Web',
+    description:
+      'Diseñamos y desarrollamos sitios web modernos, rápidos y seguros, adaptados a las necesidades de tu negocio.',
+    icon: '💻',
+  },
+  {
+    title: 'Desarrollo de Aplicaciones',
+    description:
+      'Creamos aplicaciones móviles y de escritorio a medida, con altos estándares de seguridad.',
+    icon: '📱',
+  },
+  {
+    title: 'Consultoría en Ciberseguridad',
+    description:
+      'Asesoramos a empresas para identificar vulnerabilidades y aplicar soluciones efectivas de seguridad.',
+    icon: '🔒',
+  },
+  {
+    title: 'Soporte Técnico',
+    description:
+      'Brindamos soporte técnico remoto y presencial para resolver problemas y mantener sistemas seguros.',
+    icon: '🛠️',
+  },
+];
 
+export default function Servicios() {
   return (
-    <div className="servicios-container">
-      <h1 className="servicios-heading">Nuestros Servicios</h1>
-      <div className="servicios-grid">
+    <section className="services">
+      <h2 className="services-title">Nuestros Servicios</h2>
+      <div className="services-grid">
         {services.map((service, index) => (
-          <div key={index} className="servicio-card">
-            <h2 className="servicio-title">{service.title}</h2>
-            <p className="servicio-description">{service.description}</p>
+          <div className="service-card" key={index}>
+            <div className="service-icon">{service.icon}</div>
+            <h3 className="service-title">{service.title}</h3>
+            <p className="service-description">{service.description}</p>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
-
-export default Servicios;

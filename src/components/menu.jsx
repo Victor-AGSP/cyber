@@ -8,8 +8,6 @@ function Menu() {
   const navItems = [
     { label: 'Inicio', path: '/' },
     { label: 'Servicios', path: '/servicios' },
-    { label: 'Clientes', path: '/clientes' },
-    { label: 'Contacto', path: '/contacto' },
     { label: 'Cursos', path: '/cursos' },
   ];
 
