@@ -6,12 +6,28 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import '../styles/carrusel.css';
 
+// Los logos ahora se buscan en /public/logos/
 const logos = [
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg', alt: 'Linux' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Metasploit_logo.png', alt: 'Metasploit' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Logo_Wireshark.png', alt: 'Wireshark' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Nmap-logo.svg', alt: 'Nmap' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/b/bf/Burp_Suite_logo.png', alt: 'Burp Suite' },
+  {
+    src: '/images/logos/linux.png',
+    alt: 'Linux',
+    href: 'https://www.kernel.org/',
+  },
+  {
+    src: '/images/logos/metasploit.png',
+    alt: 'Metasploit',
+    href: 'https://www.metasploit.com/',
+  },
+  {
+    src: '/images/logos/wireshark.png',
+    alt: 'Wireshark',
+    href: 'https://www.wireshark.org/',
+  },
+  {
+    src: '/images/logos/nmap.png',
+    alt: 'Nmap',
+    href: 'https://nmap.org/',
+  },
 ];
 
 function Carrusel() {
@@ -35,7 +51,13 @@ function Carrusel() {
         {logos.map((logo, index) => (
           <SwiperSlide key={index}>
             <div className="carrusel-item">
-              <img src={logo.src} alt={logo.alt} />
+              <a
+                href={logo.href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={logo.src} alt={logo.alt} />
+              </a>
             </div>
           </SwiperSlide>
         ))}

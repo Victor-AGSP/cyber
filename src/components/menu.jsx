@@ -10,7 +10,7 @@ function Menu() {
     { label: 'Servicios', path: '/servicios' },
     { label: 'Clientes', path: '/clientes' },
     { label: 'Contacto', path: '/contacto' },
-    { label: 'Cursos', path: '/pentesting' },
+    { label: 'Cursos', path: '/cursos' },
   ];
 
   return (
