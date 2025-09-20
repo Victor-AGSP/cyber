@@ -27,6 +27,12 @@ const services = [
     icon: '💾',
   },
   {
+    title: 'Refactorización a microservicios',
+    description:
+      'Refactorizamos tu sistema a microservicios para mejorar escalabilidad, mantenimiento y despliegue continuo.',
+    icon: '⚙️',
+  },
+  {
     title: 'Consultoría en Ciberseguridad',
     description:
       'Asesoramos a empresas para identificar vulnerabilidades y aplicar soluciones efectivas de seguridad.',
