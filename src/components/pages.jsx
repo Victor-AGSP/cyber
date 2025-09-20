@@ -19,7 +19,7 @@ function Pages() {
         titulo: "Juegos de cartas",
         descripcion:
           "Desarrollo de pagina web para catálogo de cartas de juegos.",
-        link: "",
+        link: "https://vicardstore.vercel.app/",
     },
   ];
 
