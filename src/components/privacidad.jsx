@@ -16,10 +16,10 @@ function Privacidad() {
           <section className="legal-section">
             <h2 className="section-title">1. Introducción</h2>
             <p className="section-text">
-              En CyberSecure, nos comprometemos a proteger su privacidad y garantizar la seguridad 
-              de su información personal. Esta Política de Privacidad describe cómo recopilamos, 
-              usamos, compartimos y protegemos su información cuando utiliza nuestros servicios de 
-              ciberseguridad y consultoría.
+              En <strong>VicForge</strong>, nos comprometemos a proteger su privacidad y garantizar la seguridad 
+              de su información personal. Esta Política de Privacidad describe cómo recopilamos, usamos, compartimos 
+              y protegemos su información cuando utiliza nuestros servicios tecnológicos, incluyendo desarrollo 
+              de aplicaciones móviles, software de escritorio y sitios web, además de soluciones de seguridad digital.
             </p>
           </section>
 
@@ -29,15 +29,15 @@ function Privacidad() {
               <h3 className="subsection-title">2.1 Información Personal</h3>
               <ul className="legal-list">
                 <li>Nombre completo y datos de contacto (correo electrónico, teléfono)</li>
-                <li>Información de la empresa (nombre, cargo, sector)</li>
+                <li>Información de la empresa o proyecto (nombre, cargo, sector)</li>
                 <li>Datos de facturación y pago</li>
-                <li>Información técnica sobre su infraestructura (solo con su consentimiento)</li>
+                <li>Información técnica necesaria para el desarrollo y soporte de software</li>
               </ul>
             </div>
             <div className="subsection">
               <h3 className="subsection-title">2.2 Información Técnica</h3>
               <ul className="legal-list">
-                <li>Dirección IP y datos de navegación</li>
+                <li>Dirección IP y datos de navegación en nuestros sitios web</li>
                 <li>Tipo de navegador y sistema operativo</li>
                 <li>Cookies y tecnologías similares</li>
                 <li>Registros de acceso y actividad en nuestros servicios</li>
@@ -49,27 +49,27 @@ function Privacidad() {
             <h2 className="section-title">3. Uso de la Información</h2>
             <p className="section-text">Utilizamos su información para:</p>
             <ul className="legal-list">
-              <li>Proporcionar y mejorar nuestros servicios de ciberseguridad</li>
-              <li>Realizar análisis de vulnerabilidades y pentesting autorizados</li>
-              <li>Comunicarnos con usted sobre servicios, actualizaciones y alertas de seguridad</li>
-              <li>Procesar pagos y gestionar su cuenta</li>
+              <li>Proporcionar y mejorar nuestros servicios tecnológicos y soluciones digitales</li>
+              <li>Desarrollar y mantener aplicaciones móviles, software de escritorio y sitios web</li>
+              <li>Ofrecer soporte técnico y atención al cliente</li>
+              <li>Procesar pagos y gestionar cuentas de clientes</li>
               <li>Cumplir con obligaciones legales y regulatorias</li>
-              <li>Prevenir fraudes y actividades maliciosas</li>
+              <li>Garantizar la seguridad y protección de los datos de nuestros clientes</li>
             </ul>
           </section>
 
           <section className="legal-section">
             <h2 className="section-title">4. Protección de Datos</h2>
             <p className="section-text">
-              Como empresa de ciberseguridad, implementamos las más altas medidas de seguridad:
+              Implementamos medidas de seguridad avanzadas para proteger la información de nuestros clientes:
             </p>
             <ul className="legal-list">
-              <li>Cifrado end-to-end de datos sensibles (AES-256)</li>
-              <li>Autenticación multifactor (MFA) para acceso a sistemas</li>
-              <li>Auditorías de seguridad regulares y pruebas de penetración</li>
-              <li>Monitoreo continuo de amenazas y respuesta a incidentes</li>
-              <li>Almacenamiento seguro en servidores con certificaciones ISO 27001</li>
-              <li>Políticas estrictas de acceso basadas en el principio de mínimo privilegio</li>
+              <li>Cifrado de datos sensibles (AES-256)</li>
+              <li>Autenticación multifactor (MFA) para acceso a sistemas críticos</li>
+              <li>Auditorías y pruebas de seguridad regulares</li>
+              <li>Monitoreo continuo y respuesta a incidentes de seguridad</li>
+              <li>Almacenamiento seguro en servidores certificados</li>
+              <li>Políticas de acceso estrictas basadas en mínimo privilegio</li>
             </ul>
           </section>
 
@@ -112,8 +112,8 @@ function Privacidad() {
             <h2 className="section-title">8. Retención de Datos</h2>
             <p className="section-text">
               Conservamos su información durante el tiempo necesario para cumplir con los fines 
-              establecidos en esta política, requisitos legales y de auditoría. Los datos de 
-              seguridad se conservan según las normativas aplicables (generalmente 5 años).
+              establecidos en esta política, requisitos legales y de auditoría. Los datos de seguridad 
+              se conservan según las normativas aplicables (generalmente 5 años).
             </p>
           </section>
 
@@ -122,7 +122,7 @@ function Privacidad() {
             <p className="section-text">
               Sus datos pueden ser transferidos y procesados en países fuera de su jurisdicción. 
               Garantizamos que estas transferencias cumplen con los estándares de protección de 
-              datos aplicables mediante cláusulas contractuales estándar y certificaciones adecuadas.
+              datos mediante cláusulas contractuales estándar y certificaciones adecuadas.
             </p>
           </section>
 
@@ -148,9 +148,9 @@ function Privacidad() {
               Para preguntas sobre esta Política de Privacidad o ejercer sus derechos, contáctenos:
             </p>
             <div className="contact-info">
-              <p><strong>CyberSecure</strong></p>
-              <p>Email: <a href="mailto:privacy@cybersecure.com">privacy@cybersecure.com</a></p>
-              <p>Responsable de Protección de Datos: <a href="mailto:dpo@cybersecure.com">dpo@cybersecure.com</a></p>
+              <p><strong>VicForge</strong></p>
+              <p>Email: <a href="mailto:privacy@vicforge.com">privacy@vicforge.com</a></p>
+              <p>Responsable de Protección de Datos: <a href="mailto:dpo@vicforge.com">dpo@vicforge.com</a></p>
             </div>
           </section>
         </div>

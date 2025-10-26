@@ -6,9 +6,9 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
         <h1>
-          <span className="accent">CyberShield</span> Security
+          <span className="accent">Vic</span>Forge
         </h1>
-        <p>Tu aliado confiable en pruebas de penetración y protección digital.</p>
+        <p>Fortalecemos tu mundo digital con soluciones sólidas y confiables.</p>
         <button className="hero-button">Contáctanos</button>
       </div>
     </section>

@@ -16,7 +16,7 @@ function Menu() {
     <nav className="menu-nav">
       <div className="menu-container">
         <div className="menu-logo">
-          <span className="logo-accent">Cyber</span>Secure
+          <span className="logo-accent">Vic</span>Forge
         </div>
         <button
           className={`menu-toggle ${isOpen ? 'active' : ''}`}
