@@ -27,12 +27,6 @@ const services = [
     icon: '💾',
   },
   {
-    title: 'Refactorización a microservicios',
-    description:
-      'Refactorizamos tu sistema a microservicios para mejorar escalabilidad, mantenimiento y despliegue continuo.',
-    icon: '⚙️',
-  },
-  {
     title: 'Consultoría en Ciberseguridad',
     description:
       'Asesoramos a empresas para identificar vulnerabilidades y aplicar soluciones efectivas de seguridad.',
@@ -45,6 +39,14 @@ const services = [
     icon: '🛠️',
   },
 ];
+const pronto = [
+  {
+    title: 'Refactorización a microservicios',
+    description:
+      'Refactorizamos tu sistema a microservicios para mejorar escalabilidad, mantenimiento y despliegue continuo.',
+    icon: '⚙️',
+  },
+];
 
 export default function Servicios() {
   return (
@@ -52,6 +54,18 @@ export default function Servicios() {
       <h2 className="services-title">Nuestros Servicios</h2>
       <div className="services-grid">
         {services.map((service, index) => (
+          <div className="service-card" key={index}>
+            <div className="service-icon">{service.icon}</div>
+            <h3 className="service-title">{service.title}</h3>
+            <p className="service-description">{service.description}</p>
+          </div>
+        ))}
+      </div>
+
+      <h2 className="services-title">Próximamente</h2>
+
+      <div className="services-grid">
+        {pronto.map((service, index) => (
           <div className="service-card" key={index}>
             <div className="service-icon">{service.icon}</div>
             <h3 className="service-title">{service.title}</h3>

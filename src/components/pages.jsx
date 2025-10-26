@@ -10,12 +10,6 @@ function Pages() {
       link: "https://pasteleria-two.vercel.app/",
     },
     {
-      titulo: "Creacion de microservicio de busqueda",
-      descripcion:
-        "Desarrollo de un microservicio de búsqueda utilizando spring boot y maven, implementando algoritmos de búsqueda eficientes y escalables.",
-      link: "https://www.bne.cl/",
-    },
-    {
         titulo: "Juegos de cartas",
         descripcion:
           "Desarrollo de pagina web para catálogo de cartas de juegos.",
