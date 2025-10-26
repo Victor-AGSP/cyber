@@ -56,3 +56,13 @@
   color: var(--text-muted);
   line-height: 1.5;
 }
+
+.service-card {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del texto del contenedor */
+}
+
+.service-card:hover {
+  text-decoration: none; /* Asegúrate de que no haya subrayado al pasar el mouse */
+  color: var(--text-light); /* Cambia el color del texto al pasar el mouse si es necesario */
+}
