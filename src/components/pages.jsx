@@ -22,7 +22,7 @@ function Pages() {
     <RevealOnScroll>
       <div className="pages-container">
         <section className="pages-header">
-          <h2>📂 Proyectos Realizados</h2>
+          <h2>📂 Proyectos en Proceso</h2>
           <p>
             Estos son algunos de los trabajos destacados que hemos desarrollado
             para ayudar a empresas a fortalecer su seguridad digital.
