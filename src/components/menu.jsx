@@ -9,8 +9,11 @@ function Menu() {
     { label: 'Inicio', path: '/' },
     { label: 'Servicios', path: '/servicios' },
     { label: 'Proyectos', path: '/proyectos' },
-    /*{ label: 'Cursos', path: '/cursos' },*/
+  { label: 'Contacto', path: '/contacto' },
+  /*{ label: 'Cursos', path: '/cursos' },*/
   ];
+
+  // socialLinks removed (not used in this menu). Contact page holds the social links.
 
   return (
     <nav className="menu-nav">

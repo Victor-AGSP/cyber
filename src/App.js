@@ -19,6 +19,7 @@ const DesarrolloAplicaciones = lazy(() => import('./components/services/devapp')
 const RecuperacionInformacion = lazy(() => import('./components/services/recovinf'));
 const ConsultoriaCiberseguridad = lazy(() => import('./components/services/conseg'));
 const SoporteTecnico = lazy(() => import('./components/services/tecs'));
+const Contact = lazy(() => import('./components/contact'));
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="/recuperacion-informacion" element={<PageTransition><RecuperacionInformacion /></PageTransition>} />
           <Route path="/consultoria-ciberseguridad" element={<PageTransition><ConsultoriaCiberseguridad /></PageTransition>} />
           <Route path="/soporte-tecnico" element={<PageTransition><SoporteTecnico /></PageTransition>} />
+          <Route path="/contacto" element={<PageTransition><Contact /></PageTransition>} />
         </Routes>
       </Suspense>
       <Footer />

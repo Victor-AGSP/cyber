@@ -9,7 +9,7 @@ function Hero() {
           <span className="accent">Vic</span>Forge
         </h1>
         <p>Fortalecemos tu mundo digital con soluciones sólidas y confiables.</p>
-        <button className="hero-button">Contáctanos</button>
+  <a className="hero-button" href="https://wa.me/56953488291" target="_blank" rel="noopener noreferrer">Contáctanos</a>
       </div>
     </section>
   );
