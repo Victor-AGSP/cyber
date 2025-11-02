@@ -1,0 +1,43 @@
+:root {
+  --transition-duration: 420ms;
+}
+
+.page-transition {
+  transform: scale(0.98);
+  opacity: 0;
+  transition: transform var(--transition-duration) cubic-bezier(.2,.8,.2,1), opacity var(--transition-duration) ease;
+}
+.page-transition.enter {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(18px) scale(0.98);
+  transition: opacity var(--transition-duration) ease, transform var(--transition-duration) cubic-bezier(.2,.8,.2,1);
+  will-change: opacity, transform;
+}
+.reveal-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Staggered reveals for direct children */
+.reveal-on-scroll.stagger > * {
+  opacity: 0;
+  transform: translateY(12px) scale(0.98);
+  transition: opacity var(--transition-duration) ease, transform var(--transition-duration) cubic-bezier(.2,.8,.2,1);
+}
+.reveal-on-scroll.stagger.visible > * {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Respect user preferences for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .page-transition,
+  .reveal-on-scroll {
+    transition: none !important;
+  }
+}

@@ -15,9 +15,9 @@ function Menu() {
   return (
     <nav className="menu-nav">
       <div className="menu-container">
-        <div className="menu-logo">
+        <Link to="/" className="menu-logo" onClick={() => setIsOpen(false)}>
           <span className="logo-accent">Vic</span>Forge
-        </div>
+        </Link>
         <button
           className={`menu-toggle ${isOpen ? 'active' : ''}`}
           onClick={() => setIsOpen(!isOpen)}
@@ -45,4 +45,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default React.memo(Menu);

@@ -1,16 +1,19 @@
 import React from 'react';
+import RevealOnScroll from '../RevealOnScroll';
 import '../../styles/service.css';
 
 const DesarrolloAplicaciones = () => {
   return (
-    <section className="services format-section">
+    <RevealOnScroll>
+      <section className="services format-section">
       <h2 className="services-title">📱 Desarrollo de Aplicaciones</h2>
       <p className="service-intro">
         Desarrollamos aplicaciones móviles y de escritorio a medida, combinando diseño intuitivo, rendimiento y seguridad.
       </p>
 
-      <div className="services-grid">
-        <div className="service-card">
+      <RevealOnScroll stagger staggerDelay={100}>
+        <div className="services-grid">
+          <div className="service-card">
           <h3 className="service-title">Qué ofrecemos</h3>
           <ul className="service-list">
             <li>Aplicaciones nativas y multiplataforma.</li>
@@ -37,8 +40,10 @@ const DesarrolloAplicaciones = () => {
             <li>Aplicaciones seguras y rápidas, sin errores críticos.</li>
           </ul>
         </div>
-      </div>
-    </section>
+        </div>
+      </RevealOnScroll>
+      </section>
+    </RevealOnScroll>
   );
 };
 

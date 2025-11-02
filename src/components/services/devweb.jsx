@@ -1,16 +1,19 @@
 import React from 'react';
+import RevealOnScroll from '../RevealOnScroll';
 import '../../styles/service.css';
 
 const DesarrolloPaginasWeb = () => {
   return (
-    <section className="services format-section">
+    <RevealOnScroll>
+      <section className="services format-section">
       <h2 className="services-title">💻 Desarrollo de Páginas Web</h2>
       <p className="service-intro">
         Creamos sitios web modernos, rápidos y seguros, adaptados a las necesidades de tu negocio, optimizados para SEO y con experiencia de usuario superior.
       </p>
 
-      <div className="services-grid">
-        <div className="service-card">
+      <RevealOnScroll stagger staggerDelay={100}>
+        <div className="services-grid">
+          <div className="service-card">
           <h3 className="service-title">Características principales</h3>
           <ul className="service-list">
             <li>Diseño responsive para móviles, tablets y escritorio.</li>
@@ -37,8 +40,10 @@ const DesarrolloPaginasWeb = () => {
             <li>Base sólida para futuras expansiones digitales.</li>
           </ul>
         </div>
-      </div>
-    </section>
+        </div>
+      </RevealOnScroll>
+      </section>
+    </RevealOnScroll>
   );
 };
 

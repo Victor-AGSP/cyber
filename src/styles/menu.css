@@ -25,6 +25,17 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+/* Ensure Link acting as logo looks like plain text (no underline) */
+.menu-logo,
+.menu-logo:link,
+.menu-logo:visited,
+.menu-logo:hover,
+.menu-logo:active {
+  text-decoration: none;
+  color: #ffffff; /* keep "Forge" white */
+  cursor: pointer;
+}
+
 .logo-accent {
   color: #0070f3; /* Azul brillante */
 }

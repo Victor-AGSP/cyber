@@ -1,16 +1,19 @@
 import React from 'react';
+import RevealOnScroll from '../RevealOnScroll';
 import '../../styles/service.css';
 
 const FormateoOptimizacion = () => {
   return (
-    <section className="services format-section">
+    <RevealOnScroll>
+      <section className="services format-section">
       <h2 className="services-title">🖥️ Formateo y Optimización</h2>
       <p className="service-intro">
         Garantizamos que tus sistemas operativos funcionen al máximo, combinando rendimiento, seguridad y estabilidad. Mejoramos la experiencia de uso y prolongamos la vida útil de tus equipos.
       </p>
 
-      <div className="services-grid">
-        <div className="service-card">
+      <RevealOnScroll stagger staggerDelay={100}>
+        <div className="services-grid">
+          <div className="service-card">
           <h3 className="service-title">¿En qué consiste?</h3>
           <ul className="service-list">
             <li>Instalación completa de sistemas operativos y drivers actualizados.</li>
@@ -38,8 +41,10 @@ const FormateoOptimizacion = () => {
             <li>Mayor eficiencia y rendimiento general de los equipos.</li>
           </ul>
         </div>
-      </div>
-    </section>
+        </div>
+      </RevealOnScroll>
+      </section>
+    </RevealOnScroll>
   );
 };
 

@@ -9,10 +9,10 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-logo">
-            <span className="logo-accent">Cyber</span>Secure
+            <span className="logo-accent">Vic</span>Forge
           </div>
           <p className="footer-copyright">
-            © {currentYear} CyberSecure. Todos los derechos reservados.
+            © {currentYear} VicForge. Todos los derechos reservados.
           </p>
           <div className="footer-links">
             <a href="/privacidad" className="footer-link">Política de Privacidad</a>
@@ -25,4 +25,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default React.memo(Footer);

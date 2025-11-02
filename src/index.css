@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Global page background so route transitions don't flash white */
+:root {
+  --page-bg: #0a192f;
+}
+
+html, body {
+  background: var(--page-bg);
+  min-height: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

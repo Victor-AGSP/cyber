@@ -56,7 +56,7 @@ function Carrusel() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={logo.src} alt={logo.alt} />
+                <img src={logo.src} alt={logo.alt} loading="lazy" />
               </a>
             </div>
           </SwiperSlide>
