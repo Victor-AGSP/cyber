@@ -24,8 +24,7 @@ function Pages() {
         <section className="pages-header">
           <h2>📂 Proyectos en Proceso</h2>
           <p>
-            Estos son algunos de los trabajos destacados que hemos desarrollado
-            para ayudar a empresas a fortalecer su seguridad digital.
+            Estos son algunos de los poyectos en los que estamos trabajando para ayudar a empresas a fortalecer su negocio.
           </p>
         </section>
 
